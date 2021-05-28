@@ -1,3 +1,6 @@
+package ArraysAndStrings;
+
+// LeetCode: https://leetcode.com/problems/rotate-string
 public class StringRotation {
     public static boolean checkRotation(String s2, String s1) {
         String s2s2 = s2 + s2;

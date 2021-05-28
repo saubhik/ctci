@@ -1,5 +1,8 @@
+package ArraysAndStrings;
+
 import java.util.Arrays;
 
+// LeetCode: https://leetcode.com/problems/set-matrix-zeroes/
 public class ZeroMatrix {
     public static int[][] generateRandomMatrix(int rows, int cols, int min,
                                                int max) {
