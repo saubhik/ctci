@@ -3,15 +3,6 @@ package LinkedLists;
 import java.util.HashSet;
 import java.util.ArrayList;
 
-class LinkedListNode {
-    public LinkedListNode next = null;
-    public int data;
-
-    LinkedListNode(int data) {
-        this.data = data;
-    }
-}
-
 /*
  * Remove Dups: Write code to remove duplicates from an unsorted linked list.
  * How would you solve this problem if a temporary buffer is not allowed?
