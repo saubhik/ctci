@@ -4,6 +4,7 @@ import java.util.Stack;
 
 /*
  * Palindrome: Implement a function to check if a linked list is a palindrome.
+ * LeetCode: https://leetcode.com/problems/palindrome-linked-list/
  */
 public class Palindrome {
     static class Solution1 {
