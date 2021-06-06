@@ -5,7 +5,7 @@ I am trying to solve all problems in CTCI.
 Chapters are organized as packages.
 
 1.  ~[ALL:9]Arrays & Strings~
-2.  [ALL:8] Linked Lists
+2.  ~[ALL:8] Linked Lists~
 3.  [ALL:6] Stacks & Queues
 4.  [ALL:12] Trees & Graphs
 5.  [ALL:8] Bit Manipulation
