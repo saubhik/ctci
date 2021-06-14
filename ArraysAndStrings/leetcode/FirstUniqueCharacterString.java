@@ -1,4 +1,7 @@
-class Solution {
+import java.util.HashMap;
+import java.util.Map;
+
+public class FirstUniqueCharacterString {
     /*
      * We can maintain a hashmap. First pass, we update the counts.
      * In the second pass, we return the index of first character that has count = 1.

@@ -1,4 +1,6 @@
-class Solution {
+import java.util.LinkedList;
+
+public class IntegerToEnglishWords {
     /*
      * 1234567891
      * In each iteration, take modulo 10.
@@ -47,21 +49,24 @@ class Solution {
             digit = num % 10;
             if (digit == 0) continue;
             switch (power % 3) {
-                case 0 -> {
+                case 0: {
                     words.addFirst(terms[power/3]);
                     words.addFirst(digitToWord[digit]);
+                    break;
                 }
-                case 1 -> {
+                case 1: {
                     if (lastDigit == 0) words.addFirst(terms[power/3]);
                     if (digit == 1) {
                         if (lastDigit > 0) words.poll();
                         words.addFirst(oneTenthDigitToWord[lastDigit]);
                     } else words.addFirst(tenthDigitToWord[digit]);
+                    break;
                 }
-                case 2 -> {
+                case 2: {
                     if (lastDigit == 0 && secondLastDigit == 0) words.addFirst(terms[power/3]);
                     words.addFirst("Hundred");
                     words.addFirst(digitToWord[digit]);
+                    break;
                 }
             };
         }
