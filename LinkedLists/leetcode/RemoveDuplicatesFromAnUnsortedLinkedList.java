@@ -1,8 +1,3 @@
-package LinkedLists.LeetCode;
-
-import java.util.HashMap;
-import java.util.Map;
-
 class ListNode {
     public ListNode next = null;
     public int val;

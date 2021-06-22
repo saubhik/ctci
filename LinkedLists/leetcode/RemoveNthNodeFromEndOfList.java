@@ -1,10 +1,6 @@
-package LinkedLists.LeetCode;
-
-import LinkedLists.LinkedListNode;
-
 public class RemoveNthNodeFromEndOfList {
-    public LinkedListNode removeNthFromEnd(LinkedListNode head, int n) {
-        LinkedListNode p1 = head, p2 = head;
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        ListNode p1 = head, p2 = head;
 
         /* Move p2 (n+1) positions into the list. */
         while (n-- >= 0) {
