@@ -1,6 +1,7 @@
 {
 	"java.project.sourcePaths": [
+		"LinkedLists/leetcode",
 		"ArraysAndStrings/leetcode",
-		"LinkedLists/leetcode"
+		"TreesAndGraphs/leetcode"
 	]
 }
