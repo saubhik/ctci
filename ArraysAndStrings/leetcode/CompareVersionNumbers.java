@@ -53,10 +53,10 @@ public class CompareVersionNumbers {
 			}
 			
 			if (endIndex == startIndex) {
-				return new Pair(0, startIndex);
+				return new Pair<>(0, startIndex);
 			}
 			
-			return new Pair(
+			return new Pair<>(
 				Integer.parseInt(version.substring(startIndex, endIndex)), endIndex);
 		}
 	}
