@@ -7,6 +7,8 @@ public class BinaryTreeMaximumPathSum {
 		 * if a node is included. A node can either
 		 * be included or will be the highest node
 		 * of the path.
+		 * Time: O(n).
+		 * Space: O(h) = O(n) in worst case.
 		 */
 		public int maxPathSum(TreeNode root) {
 			maxPathSum = Integer.MIN_VALUE;
