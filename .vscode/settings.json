@@ -1,7 +1,9 @@
 {
 	"java.project.sourcePaths": [
+		"TreesAndGraphs/leetcode",
+		"Recursion/leetcode",
 		"LinkedLists/leetcode",
 		"ArraysAndStrings/leetcode",
-		"TreesAndGraphs/leetcode"
+		"SortingAndSearching/leetcode"
 	]
 }
