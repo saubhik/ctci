@@ -4,7 +4,8 @@
 		"SortingAndSearching/leetcode",
 		"Recursion/leetcode",
 		"LinkedLists/leetcode",
+		"DynamicProgramming/leetcode",
 		"ArraysAndStrings/leetcode",
-		"DynamicProgramming/leetcode"
+		"Design/leetcode"
 	]
 }
