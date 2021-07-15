@@ -5,7 +5,8 @@
 		"Recursion/leetcode",
 		"LinkedLists/leetcode",
 		"DynamicProgramming/leetcode",
+		"Design/leetcode",
 		"ArraysAndStrings/leetcode",
-		"Design/leetcode"
+		"Others/leetcode"
 	]
 }
