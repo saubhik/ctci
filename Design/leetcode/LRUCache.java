@@ -111,25 +111,13 @@ class LRUCacheTwo {
             node.prev = null;
             node.next = null;
         }
-        
-        void printList() {
-            ListNode curr;
-            
-            curr = this.head;
-            while (curr != null) {
-                System.out.print(curr.key + ":" + curr.value + ", ");
-                curr = curr.next;
-            }
-            
-            System.out.println();
-        }
     }
     
     private Map<Integer, ListNode> store;
     private LinkedList list;
     private int capacity;
     
-    public LRUCache(int capacity) {
+    public void LRUCache(int capacity) {
         this.store = new HashMap<>(capacity);
         this.list = new LinkedList();
         this.capacity = capacity;
