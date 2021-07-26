@@ -3,10 +3,11 @@
 		"TreesAndGraphs/leetcode",
 		"SortingAndSearching/leetcode",
 		"Recursion/leetcode",
+		"Others/leetcode",
 		"LinkedLists/leetcode",
 		"DynamicProgramming/leetcode",
 		"Design/leetcode",
 		"ArraysAndStrings/leetcode",
-		"Others/leetcode"
+		"TopAmazonQuestions"
 	]
 }
