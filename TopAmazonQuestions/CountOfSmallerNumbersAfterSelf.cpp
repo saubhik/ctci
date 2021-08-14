@@ -12,7 +12,7 @@ public:
         std::vector<int> result;
 
         for (int i = nums.size() - 1; i >= 0; --i) {
-            counts = query(0, nums[i]+offset, tree, size);
+            counts = query(0, nums[i]+offset-1, tree, size);
             result.push_back(counts);
             update(nums[i]+offset, 1, tree, size);
         }
@@ -45,7 +45,7 @@ private:
         left += size;
         right += size;
 
-        while (left < right) {
+        while (left <= right) {
             /*
              * If left is right node, add value
              * and move to parent's right node.
@@ -57,9 +57,13 @@ private:
 
             left /= 2;
 
-            if (right % 2 == 1) {
-                --right;
+            /*
+             * If right is left node, add value
+             * and move to parent's left node.
+             */
+            if (right % 2 == 0) {
                 result += tree[right];
+                --right;
             }
 
             right /= 2;
